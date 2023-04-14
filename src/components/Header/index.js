@@ -12,7 +12,7 @@ function Header(props) {
       <header className={style.header}>
         <Link to="/" style={{ textDecoration: 'none' }}>
         <div className={style.header__left}>
-          <img className={style.header__logo} src="/img/Logo.jpg" alt="logo" width={60} height={60}/>
+          <img className={style.header__logo} src="img/Logo.jpg" alt="logo" width={60} height={60}/>
           <div className={style.header__info}>
             <h1 className={style.header__name}>Ted Lasso</h1>
             <p className={style.header__desc}>Assemble your football club</p>
@@ -22,13 +22,13 @@ function Header(props) {
         <ul className={style.header__right}>
           <li className={style.header__cart}>
             <div className={style.header__cart__container} onClick={props.onCartClick}>
-              <img className={style.header__cart__icon} width="22" height="22" src='/img/shopping-cart.png' alt='cart'/>
+              <img className={style.header__cart__icon} width="22" height="22" src='img/shopping-cart.png' alt='cart'/>
               <span className={style.header__price}>{totalPrice}<b> 🍪</b></span>
             </div>
           </li>
           <Link to="/favorites" style={{ textDecoration: 'none' }}>
           <li className={style.header__cart__container}>
-            <img className={style.header__cart__icon} width="22" height="22" src='/img/heart_downoload.png' alt='heart'/>
+            <img className={style.header__cart__icon} width="22" height="22" src='img/heart_downoload.png' alt='heart'/>
             <span className={style.header__price}>{totalFavorites}</span>
           </li>
           </Link>

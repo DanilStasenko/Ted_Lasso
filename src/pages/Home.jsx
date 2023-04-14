@@ -30,12 +30,12 @@ function Home({items, searchValue, setSearchValue, onSearchInput, onAddToFavorit
             {searchValue ? `${searchValue}` : "All dudes"}
           </h2>
           <div className="search">
-            <img className="search__icon" src="/img/search.svg" alt="search" width={15} height={15}/>
+            <img className="search__icon" src="img/search.svg" alt="search" width={15} height={15}/>
             <input onChange={onSearchInput} className="search__input" placeholder="Search..." value={searchValue}/>
             {searchValue && (
               <img 
                 className='search__clear' 
-                src="/img/delete.svg" 
+                src="img/delete.svg" 
                 width={11} height={11} 
                 alt="clear"
                 onClick={() => setSearchValue('')}

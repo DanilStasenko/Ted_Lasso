@@ -12,7 +12,7 @@ function Favorites({onRemove, items=[]}) {
             items.map((obj) => (
               <article className='favoriteItem' key={obj.id}>
                 <button className='favoriteItem__remove' onClick={() => onRemove(obj.id)}>
-                  <img src="/img/delete.svg" width={11} height={11} alt="delete"/>
+                  <img src="img/delete.svg" width={11} height={11} alt="delete"/>
                 </button>
                 <img className='favoriteItem__img' src={obj.imgUrl} height={200} width={141} alt="poster"/>
                 <p className='favoriteItem__title'>{obj.title}</p>

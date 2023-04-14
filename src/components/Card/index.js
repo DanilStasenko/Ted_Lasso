@@ -36,7 +36,7 @@ function Card({id, parentId, imgUrl, title, price, onFavorite, onPlus, favorited
               </ContentLoader>
             :  <>
                 <img 
-                    src={isItemFavorited(id) ? "/img/heart-liked.png" : "/img/heart-unliked.png"} 
+                    src={isItemFavorited(id) ? "img/heart-liked.png" : "img/heart-unliked.png"} 
                     width={32} height={32} 
                     alt="unliked" 
                     className={style.card__favorite}
@@ -52,7 +52,7 @@ function Card({id, parentId, imgUrl, title, price, onFavorite, onPlus, favorited
                     </div>
                 </div>
                 <button className={style.card__btn} onClick={onAddClick}>
-                    <img src={isItemAdded(id) ? "/img/btn_added.png" : "/img/btn_add.png"} height={32} width={32} alt="add"/>
+                    <img src={isItemAdded(id) ? "img/btn_added.png" : "img/btn_add.png"} height={32} width={32} alt="add"/>
                 </button>
                 </div>
             </>

@@ -11,17 +11,17 @@ import Favorites from './pages/Favorites';
 // потому что бесплатная версия mockapi позволяет добавить только два ресурса, 
 // я решил их использовать под корзину (CART_URL) и избранные (FAVORITES_URL)
 const arr = [
-  {id: "1",title: 'Coach Beard', price: 900, imgUrl: '/img//forCards/Beard.png'},
-  {id: "2",title: 'Collin Hughes', price: 500, imgUrl: '/img/forCards/Colin.png'},
-  {id: "3",title: 'Leslie Higgins', price: 600, imgUrl: '/img/forCards/Higgins.png'},
-  {id: "4",title: 'Keeley Jones', price: 700, imgUrl: '/img/forCards/Keeley.png'},
-  {id: "5",title: 'Ted Lasso', price: 1000, imgUrl: '/img/forCards/Lasso.png'},
-  {id: "6",title: 'Isaac McAdoo', price: 600, imgUrl: '/img/forCards/McAdoo.png'},
-  {id: "7",title: 'Nathan Shelley', price: 600, imgUrl: '/img/forCards/Nate.png'},
-  {id: "8",title: 'Rebecca Welton', price: 700, imgUrl: '/img/forCards/Rebecca.png'},
-  {id: "9",title: 'Dani Rojas', price: 600, imgUrl: '/img/forCards/Rojas.png'},
-  {id: "10",title: 'Roy Kent', price: 800, imgUrl: '/img/forCards/Roy.png'},
-  {id: "11",title: 'Jamie Tartt', price: 700, imgUrl: '/img/forCards/Tartt.png'},
+  {id: "1",title: 'Coach Beard', price: 900, imgUrl: 'img/forCards/Beard.png'},
+  {id: "2",title: 'Collin Hughes', price: 500, imgUrl: 'img/forCards/Colin.png'},
+  {id: "3",title: 'Leslie Higgins', price: 600, imgUrl: 'img/forCards/Higgins.png'},
+  {id: "4",title: 'Keeley Jones', price: 700, imgUrl: 'img/forCards/Keeley.png'},
+  {id: "5",title: 'Ted Lasso', price: 1000, imgUrl: 'img/forCards/Lasso.png'},
+  {id: "6",title: 'Isaac McAdoo', price: 600, imgUrl: 'img/forCards/McAdoo.png'},
+  {id: "7",title: 'Nathan Shelley', price: 600, imgUrl: 'img/forCards/Nate.png'},
+  {id: "8",title: 'Rebecca Welton', price: 700, imgUrl: 'img/forCards/Rebecca.png'},
+  {id: "9",title: 'Dani Rojas', price: 600, imgUrl: 'img/forCards/Rojas.png'},
+  {id: "10",title: 'Roy Kent', price: 800, imgUrl: 'img/forCards/Roy.png'},
+  {id: "11",title: 'Jamie Tartt', price: 700, imgUrl: 'img/forCards/Tartt.png'},
 ]
 
 export const CART_URL = 'https://643405091c5ed06c958ce87a.mockapi.io/cart';

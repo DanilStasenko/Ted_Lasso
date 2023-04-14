@@ -34,7 +34,7 @@ function Cart({onClose, onRemove, items = []}) {
         <div className={style.cart}>
             <h2 className={style.cart__title}>Your choice</h2>
             <button className={`${style.cart__item__btn} ${style.cart__item__btn_main}`} onClick={onClose}>
-                <img src="/img/delete.svg" width={11} height={11} alt="delete"/>
+                <img src="img/delete.svg" width={11} height={11} alt="delete"/>
             </button>
             {
                 items.length > 0 ? <div>
@@ -51,7 +51,7 @@ function Cart({onClose, onRemove, items = []}) {
 
                             </div>
                             <button className={style.cart__item__btn} onClick={() => onRemove(obj.id)}>
-                                <img src="/img/delete.svg" width={11} height={11} alt="delete"/>
+                                <img src="img/delete.svg" width={11} height={11} alt="delete"/>
                             </button>
                         </article>
                     ))}
@@ -75,7 +75,7 @@ function Cart({onClose, onRemove, items = []}) {
                     </div>
                 </div> : 
                 <Info
-                  image={isOrderComplete ? '/img/processed.png' : '/img/empty_cart.png' }
+                  image={isOrderComplete ? 'img/processed.png' : 'img/empty_cart.png' }
                   title={isOrderComplete ? "Order is completed" : "Your list is empty"}
                 />
             }
