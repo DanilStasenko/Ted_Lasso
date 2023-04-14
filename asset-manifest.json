@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Ted_Lasso/static/css/main.fe38185f.css",
-    "main.js": "/Ted_Lasso/static/js/main.11387824.js",
+    "main.js": "/Ted_Lasso/static/js/main.839e724b.js",
     "index.html": "/Ted_Lasso/index.html",
     "main.fe38185f.css.map": "/Ted_Lasso/static/css/main.fe38185f.css.map",
-    "main.11387824.js.map": "/Ted_Lasso/static/js/main.11387824.js.map"
+    "main.839e724b.js.map": "/Ted_Lasso/static/js/main.839e724b.js.map"
   },
   "entrypoints": [
     "static/css/main.fe38185f.css",
-    "static/js/main.11387824.js"
+    "static/js/main.839e724b.js"
   ]
 }
