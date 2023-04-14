@@ -1,0 +1,97 @@
+@import '../../vars.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem .5rem;
+    @media ($tablet) {
+      padding: 4.5rem 6rem;
+    }
+    border-bottom: .2rem solid $backgroundColor;
+  
+    &__left {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+  
+    &__logo {
+      margin-right: 1rem;
+      @media ($tablet) {
+        margin-right: 1.5rem;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  
+    &__name {
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      color: $mainFontColor;
+      @media ($tablet) {
+        font-size: 2rem;
+      }
+    }
+  
+    &__desc {
+      color: #9D9D9D;
+      font-size: 1rem;
+      @media ($tablet) {
+        font-size: 1.4rem;
+      }
+    }
+  
+    &__right {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 3rem;
+    
+    }
+  
+    &__cart {
+      margin-right: 2rem;
+      @media ($tablet) {
+        margin-right: 5rem;
+      }
+  
+      &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      &__icon {
+        transition: transform 0.2s ease-in-out;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.2);
+        }
+      }
+    }
+  
+    &__price {
+      display: none;
+      @media ($mobileL) {
+        display: block;
+      }
+      font-size: 1.4rem;
+      color: #5C5C5C;
+      text-align: center;
+      margin-left: 1rem;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    
+    &__user {
+      transition: transform 0.2s ease-in-out;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+    }
+}
