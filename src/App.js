@@ -171,7 +171,7 @@ function App() {
         <Routes>
           <Route
             exact={true}
-            path=''
+            path='/'
             element={<Home 
               items={items}
               cartItems={cartItems} 
@@ -187,7 +187,7 @@ function App() {
 
             <Route
               exact={true}
-              path='favorites'
+              path='/favorites'
               element={<Favorites
                 items={favoritesItems} 
                 onRemove={onRemoveFromFavorites}
